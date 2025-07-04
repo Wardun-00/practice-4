@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color:#f0f0f0;
+    background-color:#fff5f5;
 }
 
 /* This is nav item */
@@ -20,7 +20,10 @@ body{
     border-radius: 25px;
     position:sticky;
     top:0;
+    opacity: 0.9;
+    
 }
+
 h2{
     color: antiquewhite;
     margin-left:20px;
@@ -50,8 +53,44 @@ li :hover{
     margin-top:15px;
 }
 
+/* nav bar closed */
+
+/* bodywork start */
 
 
+
+.txt-main{
+    display: flex;
+    justify-content: space-between;
+}
+/* ........................................... */
+.passage5{
+   width:700px
+
+}
+h4{
+    color: blueviolet;
+    font-size: 19px;
+}
+.wardun{
+    color:black;
+    margin:0;
+    font-size: 49px;
+}
+/* .......... .................................*/
+.text-container{
+    margin-top:250px;
+    margin-left: 300px;
+}
+/* ''''''''''''''''''''''''''''''''''''''''''''''''' */
+.webimg{
+    width: 500px;
+    margin-top: 52px;
+    margin-right: 150px;
+}
+
+
+/* ............................................... */
 /* box container work */
 .container{
     display: flex;
