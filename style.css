@@ -10,6 +10,48 @@ body{
     background-color:#f0f0f0;
 }
 
+/* This is nav item */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(176, 100, 248);
+    height:65px;
+    border: 2px solid rgb(82, 14, 145);
+    border-radius: 25px;
+    position:sticky;
+    top:0;
+}
+h2{
+    color: antiquewhite;
+    margin-left:20px;
+    margin-top:15px;
+}
+/* list item er design er change */
+.list ul li{
+    list-style: none;
+
+}
+
+.navlist{
+    text-decoration: none;
+    color:#fcfcfc;
+}
+
+li :hover{
+    color: rgb(28, 39, 46);
+
+}
+
+/* list item er moddhe ul er flex */
+.list ul{
+    display:flex;
+    gap:30px;
+    margin-right: 40px;
+    margin-top:15px;
+}
+
+
+
 /* box container work */
 .container{
     display: flex;
@@ -23,10 +65,44 @@ body{
 .card{
     /* width: 200px; */
     border: 3px solid blueviolet;
-    width: 350px;
+   max-width: 356px;
+   max-height:1000px;
+   box-shadow:8px 0px 27px;
+   /* display: inline-block;
+   transition: transform 0.10s eases; */
     
 }
 
+
+.card-content{
+    margin-top: 50px;
+    padding:25px;
+
+}
 img{
-    width: 350px;
+    width: 100%;
+}
+
+.image1{
+    height: 620px;
+}
+
+
+.btn{
+    text-decoration:none;
+    border:3px solid blueviolet;
+    border-radius: 7px;
+    margin-top:50px;
+    display: block;
+    margin-right:205px ;
+    color:white;
+    background-color: black;
+}
+
+.btn:hover{
+    background-color: rgb(94, 30, 155);
+}
+ .card :hover{
+    transform: scale(1.05);
+
 }
